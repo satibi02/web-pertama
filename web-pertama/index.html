@@ -1,0 +1,72 @@
+<html> 
+	<head>
+		<meta charset="utf-8" />
+		<lin rel="icon" href="%PUBLIC_URL&/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEN PERTAMA </title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+				<h1 class="logo-title"> MUHAMAD SM </h1>	
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#jasa">JASA</a></li> 
+					<li><a href="mailto:mulyasatibi@gmail.com">KONTAK</a></li>
+
+				</ul> 
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="titile">Hello, Muhamad Satibi Mulya Here!</p>
+				<p class="description">Tecnology Influencer From Village.</p>
+				<img src="assets/foto/satibi-mulya-1.png.jpeg" alt="satibi mulya foto 1" class="img-foto" />
+			</div>	
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="titile"> Urang Nuju Belajar Programmer </p>
+				<p class="description">Belajar Dulu aja, Masalah Bisa Ga Bisa Itu  Belakangan.</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="jasa">
+					<div class="card-item">
+						<img src="assets/icon/24-hours.png.png" alt="icon 1" class="icon" />
+						<p class="card-titile">Pelayanan Setiap Hari</p>
+						<p class="card-description">Jika anda membutuhkan service kami siap melayani selama 24 jam.</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/hot-deal.png.jpg" alt="icon 2" class="icon" />
+						<p class="card-titile">Jasa Pembuatan Website</p>
+						<p class="card-description">kepuasan clien yang merupakan prioritas kami.</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icon/rating.jpg" alt="icon 3" class="icon"/>
+						<p class="card-titile">1000 Review</p>
+						<p class="card-description">Clien sangat happy dalam bekerja dengan kami.</p>
+					</div>
+
+					</div>
+			</div>
+		</div>
+		<footer>
+			<p class="titile">&copy; Muhamad Satibi Mulya Website 2022</p>
+		</footer>
+		<script>
+			function redirInstagram() {
+				window.location.href ="https://instagram.com/muhammadsatibimulya"
+			}
+			function redirWhatsapp() {
+				window.location.href ="https://wa.me/+6281312325512"
+			}
+		 </script>
+	</body>
+</html>
